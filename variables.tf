@@ -9,3 +9,6 @@ variable "environment_secrets" {
   description = "A map of environment-scoped secrets"
   default     = {}
 }
+
+variable "AWS_ACCOUNT_NUMBER" {
+}
