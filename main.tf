@@ -4,6 +4,6 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "my_bucket" {
-  bucket = "s3triggerforlambda-${secrets.AWS_ACCOUNT_NUMBER}"
+  bucket = "s3triggerforlambda-var.AWS_ACCOUNT_NUMBER"
   acl    = "private"
 }
